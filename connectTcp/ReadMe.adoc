@@ -1,54 +1,52 @@
 :Author: tribhuvan
 :Email: tribhuvanreddyramidi@gmail.com
 :Date: 23/06/2017
-:Revision: version#
-:License: Public Domain
+:Revision: 1
+:License: MIT
 
-= Project: {Project}
+= Project: 2 way TCP Communication with a webAPI.
 
-Describe your project
+This file can communicate with any external webAPI exposing data.In my case i have used thingspeak.com/ free web api
 
 == Step 1: Installation
-Please describe the steps to install this project.
+1. Install Arduino plugin in operating system or simply login in to Arduino web editor(I would be using web editor)
 
-For example:
+2. Once logedin, once Arduino is connected to your computer web editor detects Arduino automatically
 
-1. Open this file
-2. Edit as you like
-3. Release to the World!
 
 == Step 2: Assemble the circuit
 
 Assemble the circuit following the diagram layout.png attached to the sketch
+<img src="https://lh3.googleusercontent.com/DokNSzV9iHv-ayqZ2Vvi2K9MqIJzfdT5nsZcXjNtL1T5q0haoWR0qde1ssoIW3ZeOYgAJe-XvPnfHCbpQNCC_mKouWIeDb9e1EGp3R6DE-s3ak5jnuf2WPwuor2MRyoNk37muqgdkL8RcKjnCLj1dIeCUPTT2oSB82SkRc9NWcrqIPdlR5sbEFSR-eGyL2dwt_8WNjqYgBSQ9IjRjFe4T5v4FwkKW5TANrLkC_91mNQw72MAGKWBN94bLsTz4otidj-VCn8lp6cz0agKUeJCM7itY-VsgKspahT_wDFeiZu5m4nov1TP6Fh4vaTClEPoCGjXPKU-E46cmRD_lh1-jmz29jvPFop7q2f7xT4Uh1Y1C-zzPBSkFka3gc3QoXtVKpptN8oKNysHJWZqyfRx-ttIyHaGfmQ55fserNUeyWtIkKgw3wvg6ppCSJjujEq3nTmhUbvOK6r3e5eM_Gpx0Yc2h05WAj8SJBZb04wCN3w584W88F85R3lZHGY6AdOH1F3KM-flF9YoUDqkw1jv2JvOe-MiFKqSb1bMNU8Ok-vuHhprAZgtmkCZKx31BK5ItpezF-33gPZJ7dQbmtjrZMfM74ZlLDWTmj1eceo=w365-h648-no" width="50%" height="50%" />
 
 == Step 3: Load the code
 
-Upload the code contained in this sketch on to your board
+Upload sketchs to your account, then run it on 9600 baud rate
 
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
+ connectTcp/                => Arduino sketch folder
+  ├── connectTcp.ino       => main Arduino file
   ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
+  ├── sketch.json         => (optional) an image of the layout
   └── ReadMe.adoc         => this file
 ....
 
 === License
-This project is released under a {License} License.
+This project is released under a MIT License.
 
 === Contributing
 To contribute to this project please contact tribhuvan <tribhuvanreddyramidi@gmail.com>
 
 === BOM
-Add the bill of the materials you need for this project.
 
 |===
 | ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
+| W1 | Male-Male wire | 1234-abcd   | 10       
+| E1 | ESP8266        | 2345-asdf   | 1        
+| A1 | Arduino Zero   | ABX00066    | 1     
+| B1 | Bread board    | ABX00066    | 1        
 |===
 
 
