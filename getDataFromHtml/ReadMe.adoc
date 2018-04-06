@@ -1,54 +1,51 @@
 :Author: tribhuvan
 :Email: tribhuvanreddyramidi@gmail.com
-:Date: 26/07/2017
-:Revision: version#
-:License: Public Domain
+:Date: 23/06/2017
+:Revision: 1
+:License: MIT
 
-= Project: {Project}
+= Project: Web Client for ESP8266.
 
-Describe your project
+This file takes ssid & pwd inputs from localhost(192.168.0.1:80/?ssid=&pwd=) and commands esp to connect given SSID
 
 == Step 1: Installation
-Please describe the steps to install this project.
+1. Install Arduino plugin in operating system or simply login in to Arduino web editor(I would be using web editor)
 
-For example:
+2. Once logedin, once Arduino is connected to your computer web editor detects Arduino automatically
 
-1. Open this file
-2. Edit as you like
-3. Release to the World!
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+Assemble the circuit following the diagram schematics.jpg attached to the sketch
 
 == Step 3: Load the code
 
-Upload the code contained in this sketch on to your board
+Upload sketchs to your account, then run it on 9600 baud rate
 
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
+ connectTcp/                => Arduino sketch folder
+  ├── getDataFromHtml.ino       => main Arduino file
+  ├── schematics.jpg      => (optional) an image of the required schematics
+  ├── sketch.json         => (optional) an image of the layout
   └── ReadMe.adoc         => this file
 ....
 
 === License
-This project is released under a {License} License.
+This project is released under a MIT License.
 
 === Contributing
 To contribute to this project please contact tribhuvan <tribhuvanreddyramidi@gmail.com>
 
 === BOM
-Add the bill of the materials you need for this project.
 
 |===
 | ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
+| W1 | Male-Male wire | 1234-abcd   | 10       
+| E1 | ESP8266        | 2345-asdf   | 1        
+| A1 | Arduino Zero   | ABX00066    | 1     
+| B1 | Bread board    | ABX00066    | 1        
 |===
 
 
