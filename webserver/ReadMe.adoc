@@ -7,11 +7,17 @@
 = Project: WEBserver using ESP8266.
 
 This file creates a webserver with in ypur esp8266 using AT commands
+
 AT+RST // reset module
+
 AT+CWMODE=1 // configure as access point
+
 AT+CIFSR // get ip address
+
 AT+CIPMUX=1 // configure for multiple connections
+
 AT+CIPSERVER=1,80 // turn on server on port 80
+
 For more commands visit https://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/
 
 == Step 1: Installation
