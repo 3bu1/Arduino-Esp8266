@@ -16,8 +16,7 @@ This file can communicate with any external webAPI exposing data.In my case i ha
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
-<img src="https://lh3.googleusercontent.com/DokNSzV9iHv-ayqZ2Vvi2K9MqIJzfdT5nsZcXjNtL1T5q0haoWR0qde1ssoIW3ZeOYgAJe-XvPnfHCbpQNCC_mKouWIeDb9e1EGp3R6DE-s3ak5jnuf2WPwuor2MRyoNk37muqgdkL8RcKjnCLj1dIeCUPTT2oSB82SkRc9NWcrqIPdlR5sbEFSR-eGyL2dwt_8WNjqYgBSQ9IjRjFe4T5v4FwkKW5TANrLkC_91mNQw72MAGKWBN94bLsTz4otidj-VCn8lp6cz0agKUeJCM7itY-VsgKspahT_wDFeiZu5m4nov1TP6Fh4vaTClEPoCGjXPKU-E46cmRD_lh1-jmz29jvPFop7q2f7xT4Uh1Y1C-zzPBSkFka3gc3QoXtVKpptN8oKNysHJWZqyfRx-ttIyHaGfmQ55fserNUeyWtIkKgw3wvg6ppCSJjujEq3nTmhUbvOK6r3e5eM_Gpx0Yc2h05WAj8SJBZb04wCN3w584W88F85R3lZHGY6AdOH1F3KM-flF9YoUDqkw1jv2JvOe-MiFKqSb1bMNU8Ok-vuHhprAZgtmkCZKx31BK5ItpezF-33gPZJ7dQbmtjrZMfM74ZlLDWTmj1eceo=w365-h648-no" width="50%" height="50%" />
+Assemble the circuit following the diagram schematics.jpg attached to the sketch
 
 == Step 3: Load the code
 
@@ -28,7 +27,7 @@ Upload sketchs to your account, then run it on 9600 baud rate
 ....
  connectTcp/                => Arduino sketch folder
   ├── connectTcp.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
+  ├── schematics.jpg      => (optional) an image of the required schematics
   ├── sketch.json         => (optional) an image of the layout
   └── ReadMe.adoc         => this file
 ....
